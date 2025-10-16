@@ -1,0 +1,7 @@
+module example.com/greetings
+
+go 1.24.1
+
+//The go mod init command creates a go.mod file to track your code's dependencies. So far, the file includes only the name of your module and the Go version your code supports. But as you add dependencies, the go.mod file will list the versions your code depends on. This keeps builds reproducible and gives you direct control over which module versions to use.
+
+require golang.org/x/text v0.30.0 // indirect
