@@ -11,6 +11,9 @@ func main() {
 	fmt.Println(result)
 	fmt.Println(x)
 	fmt.Println(math.Sqrt(100))
+
+	fmt.Println(plus(10, 5))
+	fmt.Println(plusplus(30, 04, 04))
 	// solve()
 }
 func solve() (int, string) {
@@ -27,4 +30,14 @@ func solve2() (i int, j string) {
 	j = "rahul"
 	return
 	//fmt.Println("Hello")
+}
+
+func plus(a int, b int) int {
+	return a + b
+}
+func plusplus(a int, b int, c int) int {
+	return a + b + c
+}
+func plusplus1(a, b, c int) int {
+	return a + b + c
 }
